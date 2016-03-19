@@ -89,6 +89,28 @@ shower <- function(incremental = FALSE,
     args
   }
 
+  post_processor <- function(metadata, input_file, output_file, clean,
+                             verbose) {
+
+    ## Get lines from output file
+    lines <- readLines(output_file)
+
+    ## Change <li class="fragment"> elements, add a "next" class.
+    ## Shower needs this for incremental lists
+
+    lines <- sub(
+      "<li class=\"fragment\"",
+      "<li class=\"fragment next\"",
+      lines,
+      fixed = TRUE
+    )
+
+    ## Write it out
+    writeLines(lines, output_file)
+
+    output_file
+  }
+
   output_format(
     knitr = knitr_options_html(fig_width, fig_height, fig_retina, keep_md),
     pandoc = pandoc_options(
@@ -99,6 +121,7 @@ shower <- function(incremental = FALSE,
     keep_md = keep_md,
     clean_supporting = self_contained,
     pre_processor = pre_processor,
+    post_processor = post_processor,
     base_format = html_document_base(
       smart = smart,
       lib_dir = lib_dir,

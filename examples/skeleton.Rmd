@@ -173,7 +173,11 @@ And text on top of them.
 
 ## Lists item by item
 
-TODO
+> 1. Lets you reveal list items one by one
+> 2. To keep some key points
+> 3. In secret from audience
+> 4. But it will work only once
+> 5. Nobody wants to see the same joke twice
 
 ---
 
