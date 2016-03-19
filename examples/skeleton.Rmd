@@ -163,9 +163,7 @@ And text on top of them.
 
 ---
 
-## Title slide
-
-TODO
+## Title slide { .shout }
 
 ---
 
