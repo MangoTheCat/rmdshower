@@ -96,7 +96,14 @@ going?
 
 ## Two column layout, independent columns
 
-TODO
+<div class="double">
+<p style="vertical-align:top; display: inline-block">
+How did I get into this mess? I really don't know how. We seem to be made
+to suffer.
+</p><p style="vertical-align: top; display: inline-block">
+It's our lot in life. I've got to rest before I fall apart.
+</p>
+</div>
 
 ---
 
