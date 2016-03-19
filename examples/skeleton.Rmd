@@ -1,5 +1,6 @@
 ---
-title: "Presentation title"
+title: "Shower Presentations with R Markdown"
+author: Mango Solutions, https://github.com/mangothecat
 output:
   rmdshower::shower:
     self_contained: false
@@ -12,7 +13,7 @@ output:
 <img src="cover.jpg" class="cover">
 
 <p style="color:white">
-Get it on [GitHub](https://github.com/mangothecat/rmdshower)
+Get it from [GitHub](https://github.com/mangothecat/rmdshower)
 </p>
 
 ---
