@@ -82,6 +82,13 @@ shower <- function(incremental = FALSE,
       paste("shower-url=", pandoc_path_arg(shower_path), sep  ="")
     )
 
+    rmdshower_path <- system.file(package = "rmdshower")
+    args <- c(
+      args,
+      "--variable",
+      paste("rmdshower-url=", pandoc_path_arg(rmdshower_path), sep = "")
+    )
+
     ## highlight
     args <- c(args, pandoc_highlight_args(highlight, default = "pygments"))
 
