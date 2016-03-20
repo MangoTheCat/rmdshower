@@ -6,16 +6,12 @@
 #' @export
 
 shower <- function(incremental = FALSE,
-                   center = FALSE,
                    fig_width = 8,
                    fig_height = 5,
                    fig_retina = if (!fig_caption) 2,
                    fig_caption = FALSE,
                    smart = TRUE,
                    self_contained = TRUE,
-                   theme = "simple",
-                   transition = "default",
-                   background_transition = "default",
                    highlight = "default",
                    mathjax = "default",
                    template = "default",
