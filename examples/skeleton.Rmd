@@ -6,12 +6,12 @@ output:
     self_contained: false
 ---
 
-## Shower Presentations with R Markdown { style="color:white" }
+## Shower Presentations with R Markdown { .white }
 
-<img src="cover.jpg" class="cover">
+<img src="scifi.jpg" class="cover">
 
-<p style="color:white">
-Get it from [GitHub](https://github.com/mangothecat/rmdshower)
+<p class="white">
+Get it from GitHub: https://github.com/mangothecat/rmdshower.
 </p>
 
 ---
@@ -151,11 +151,11 @@ summary(cars)
 
 ---
 
-## Pictures { style="color:white" }
+## Pictures { .white }
 
 <img src="scifi.jpg" class="cover">
 
-<p style="color:white">
+<p class="white">
 And text on top of them.
 </p>
 

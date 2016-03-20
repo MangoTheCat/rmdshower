@@ -1,4 +1,18 @@
 
+/* White */
+
+h2.white {
+    color: white;
+}
+
+p.white {
+    color: white;
+}
+
+p.white a {
+    color: white;
+}
+
 /* Both input and output */
 
 .slide pre code {
