@@ -203,6 +203,8 @@ pairs(iris[1:4], pch = 21,
 
 ---
 
-## More information
+## About R markdown: http://rmarkdown.rstudio.com
 
-TODO
+## About shower: https://github.com/shower/shower
+
+## Example shower presentation: http://shwr.me/
