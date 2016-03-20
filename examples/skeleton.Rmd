@@ -4,8 +4,6 @@ author: Mango Solutions, https://github.com/mangothecat
 output:
   rmdshower::shower:
     self_contained: false
-    fig_width: 8
-    fig_height: 5
 ---
 
 ## Shower Presentations with R Markdown { style="color:white" }
