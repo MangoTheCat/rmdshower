@@ -54,3 +54,12 @@ p.white a {
     height: 100%;
     max-width: none;
 }
+
+.one-col-image {
+    width: 350px;
+}
+
+.double-flow {
+    vertical-align: top;
+    display: inline-block;
+}

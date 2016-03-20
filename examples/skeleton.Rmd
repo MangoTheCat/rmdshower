@@ -77,7 +77,7 @@ How did I get into this mess? I really don't know how. We seem to be made
 to suffer. It's our lot in life. I've got to rest before I fall apart. My
 joints are almost frozen. What a desolate place this is. Where are you
 going?
-<img src="sw.jpg" style="width:350px">
+<img src="sw.jpg" class="one-col-image">
 </p>
 
 ---
@@ -85,7 +85,7 @@ going?
 ## Two column layout, image and text
 
 <p class="double">
-<img src="sw.jpg" style="width:350px">
+<img src="sw.jpg" class="one-col-image">
 How did I get into this mess? I really don't know how. We seem to be made
 to suffer. It's our lot in life. I've got to rest before I fall apart. My
 joints are almost frozen. What a desolate place this is. Where are you
@@ -97,10 +97,10 @@ going?
 ## Two column layout, independent columns
 
 <div class="double">
-<p style="vertical-align:top; display: inline-block">
+<p class="double-flow">
 How did I get into this mess? I really don't know how. We seem to be made
 to suffer.
-</p><p style="vertical-align: top; display: inline-block">
+</p><p class="double-flow">
 It's our lot in life. I've got to rest before I fall apart.
 </p>
 </div>
