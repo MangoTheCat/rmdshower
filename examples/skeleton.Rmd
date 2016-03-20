@@ -1,6 +1,6 @@
 ---
 title: "Shower Presentations with R Markdown"
-author: Mango Solutions, https://github.com/mangothecat/rmdshower
+author: https://github.com/mangothecat/rmdshower
 output:
   rmdshower::shower:
     self_contained: false
