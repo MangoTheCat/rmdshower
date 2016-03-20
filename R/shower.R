@@ -5,22 +5,26 @@
 #'   render_supporting_files output_format includes_to_pandoc_args
 #' @export
 
-shower <- function(incremental = FALSE,
-                   fig_width = 8,
-                   fig_height = 5,
-                   fig_retina = if (!fig_caption) 2,
-                   fig_caption = FALSE,
-                   smart = TRUE,
-                   self_contained = TRUE,
-                   highlight = "default",
-                   mathjax = "default",
-                   template = "default",
-                   css = NULL,
-                   includes = NULL,
-                   keep_md = FALSE,
-                   lib_dir = NULL,
-                   pandoc_args = NULL,
-                   ...) {
+shower <- function(
+  theme = c("ribbon", "mango"),
+  incremental = FALSE,
+  fig_width = 8,
+  fig_height = 5,
+  fig_retina = if (!fig_caption) 2,
+  fig_caption = FALSE,
+  smart = TRUE,
+  self_contained = TRUE,
+  highlight = "default",
+  mathjax = "default",
+  template = "default",
+  css = NULL,
+  includes = NULL,
+  keep_md = FALSE,
+  lib_dir = NULL,
+  pandoc_args = NULL,
+  ...) {
+
+  theme <- match.arg(theme)
 
   ## put common pandoc options here
   args <- c()
@@ -41,6 +45,9 @@ shower <- function(incremental = FALSE,
 
   # slide level
   args <- c(args, "--slide-level", "1")
+
+  # theme
+  args <- c(args, "--variable", paste0("theme=", theme))
 
   # content includes
   args <- c(args, includes_to_pandoc_args(includes))
