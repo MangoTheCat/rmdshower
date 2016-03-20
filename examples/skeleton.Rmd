@@ -181,9 +181,10 @@ And text on top of them.
 
 ## Slide with Plot
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, dev='svg'}
 par(mar = c(5, 4, 1, 2) + 0.1)
-plot(cars)
+pairs(iris[1:4], pch = 21,
+      bg = c("red", "green3", "blue")[unclass(iris$Species)])
 ```
 
 ---
