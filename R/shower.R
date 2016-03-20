@@ -15,7 +15,6 @@ shower <- function(
   smart = TRUE,
   self_contained = TRUE,
   highlight = "default",
-  mathjax = "default",
   template = "default",
   css = NULL,
   includes = NULL,
@@ -136,7 +135,7 @@ shower <- function(
       smart = smart,
       lib_dir = lib_dir,
       self_contained = self_contained,
-      mathjax = mathjax,
+      mathjax = NULL,
       pandoc_args = pandoc_args,
       ...
     )
