@@ -54,18 +54,3 @@ p.white a {
     height: 100%;
     max-width: none;
 }
-
-@media screen {
-    .shower.list {
-	background-color: #B1B2A7;
-    }
-}
-
-header.caption {
-    color: #902000;
-}
-
-header.caption a {
-    color: #902000;
-    font-family: monospace;
-}
