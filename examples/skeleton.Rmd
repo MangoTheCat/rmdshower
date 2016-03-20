@@ -4,6 +4,7 @@ author: https://github.com/mangothecat/rmdshower
 output:
   rmdshower::shower:
     self_contained: false
+    katex: true
 ---
 
 ## Shower Presentations with R Markdown { .white }
@@ -114,6 +115,16 @@ It's our lot in life. I've got to rest before I fall apart.
     * But do not go too far
     * Otherwise audience will be bored
 1. Look, seven rows exactly!
+
+---
+
+## Formulas
+
+Formulas are rendered by KaTeX, https://github.com/Khan/KaTeX
+
+It supports both inline: \(y = x / 2\) and displayed formulas:
+
+\[ x_{1,2} = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a} \]
 
 ---
 

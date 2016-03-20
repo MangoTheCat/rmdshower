@@ -7,6 +7,7 @@
 
 shower <- function(
   theme = c("ribbon", "mango"),
+  katex = FALSE,
   incremental = FALSE,
   fig_width = 8,
   fig_height = 5,
@@ -47,6 +48,9 @@ shower <- function(
 
   # theme
   args <- c(args, "--variable", paste0("theme=", theme))
+
+  # KaTeX?
+  args <- c(args, if (katex) c("--variable", "katex=yes"))
 
   # content includes
   args <- c(args, includes_to_pandoc_args(includes))
@@ -135,7 +139,7 @@ shower <- function(
       smart = smart,
       lib_dir = lib_dir,
       self_contained = self_contained,
-      mathjax = NULL,
+      mathjax = if (katex) "default" else NULL,
       pandoc_args = pandoc_args,
       ...
     )
