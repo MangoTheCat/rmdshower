@@ -76,7 +76,7 @@ shower <- function(
     ## extra args
     args <- c()
 
-    shower_path <- system.file("shower", package = "rmdshower")
+    shower_path <- system.file(package = "rmdshower")
     if (!self_contained || identical(.Platform$OS.type, "windows")) {
       shower_path <- relative_to(
         output_dir, render_supporting_files(shower_path, lib_dir)
@@ -86,13 +86,6 @@ shower <- function(
       args,
       "--variable",
       paste("shower-url=", pandoc_path_arg(shower_path), sep  ="")
-    )
-
-    rmdshower_path <- system.file(package = "rmdshower")
-    args <- c(
-      args,
-      "--variable",
-      paste("rmdshower-url=", pandoc_path_arg(rmdshower_path), sep = "")
     )
 
     ## highlight
