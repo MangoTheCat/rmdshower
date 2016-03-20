@@ -5,6 +5,7 @@ output:
   rmdshower::shower:
     self_contained: false
     katex: true
+    theme: ribbon
 ---
 
 ## Shower Presentations with R Markdown { .white }

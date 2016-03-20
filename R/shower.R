@@ -6,7 +6,7 @@
 #' @export
 
 shower <- function(
-  theme = c("ribbon", "mango"),
+  theme = c("ribbon", "material", "mango"),
   katex = FALSE,
   incremental = FALSE,
   fig_width = 8,
