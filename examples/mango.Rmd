@@ -8,7 +8,7 @@ output:
   rmdshower::shower:
     self_contained: false
     katex: true
-    theme: ribbon
+    theme: mango
 ---
 
 # R Markdown
