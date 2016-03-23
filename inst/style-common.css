@@ -1,6 +1,15 @@
 
 /* White */
 
+section.white h1,
+section.white h2 {
+    color: white;
+}
+
+h1.white {
+    color: white;
+}
+
 h2.white {
     color: white;
 }
@@ -11,26 +20,6 @@ p.white {
 
 p.white a {
     color: white;
-}
-
-/* Both input and output */
-
-.slide pre code {
-    display: block;
-    line-height: 1.2;
-    background: #eee;
-    color: #333;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 80%;
-}
-
-/* Code input, we need to undo unwanted changes here */
-
-.slide pre.sourceCode code {
-    background: #fff;
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 
 /* Full page figure */

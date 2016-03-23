@@ -1,20 +1,14 @@
 ---
 title: "Shower Presentations with R Markdown"
-author: https://github.com/mangothecat/rmdshower
+author: "Gábor Csárdi"
+email: "gcsardi@mango-solutions.com"
+maketitle: true
 output:
   rmdshower::shower:
     self_contained: false
     katex: true
     theme: ribbon
 ---
-
-# Shower Presentations with R Markdown { .white }
-
-<img src="scifi.jpg" class="cover">
-
-<p class="white">
-Get it from GitHub: https://github.com/mangothecat/rmdshower.
-</p>
 
 # R Markdown
 
@@ -137,7 +131,7 @@ summary(cars)
 |       Valiant     | 18.1  |   6   |  225.0 | 105  |
 |      Duster 360   | 14.3  |   8   |  360.0 | 245  |
 
-# Pictures { .white }
+# Pictures { .cover .white }
 
 <img src="scifi.jpg" class="cover">
 
@@ -146,10 +140,6 @@ And text on top of them.
 </p>
 
 # Title slide { .shout }
-
----
-
-## You Can Shout If You Want To { .shout .shrink }
 
 # Lists item by item
 
@@ -180,6 +170,8 @@ pairs(iris[1:4], pch = 21,
 </div>
 
 # More information
+
+## About rmdshower: https://github.com/mangothecat/rmdshower
 
 ## About R markdown: http://rmarkdown.rstudio.com
 

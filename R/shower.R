@@ -10,7 +10,7 @@ shower <- function(
   katex = FALSE,
   incremental = FALSE,
   fig_width = 8,
-  fig_height = 5,
+  fig_height = 4.9,
   fig_retina = if (!fig_caption) 2,
   fig_caption = FALSE,
   smart = TRUE,
