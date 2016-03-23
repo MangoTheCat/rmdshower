@@ -29,7 +29,7 @@ presentation system. Notable features:
 1. Works in all modern browsers
 1. Presentation fully keyboard accessible
 1. Multiple themes available
-1. Printable to PDF
+1. Printable to PDF (Need Chrome version 49.0.2623 for two column slides)
 
 <p class="note"> Shower ['ʃəuə] noun. A person or thing that shows.</p>
 
