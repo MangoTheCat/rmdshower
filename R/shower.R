@@ -1,4 +1,25 @@
 
+#' R Markdown format for Shower presentations
+#'
+#' Shower is a vanilla HTML/CSS/JS presentation engine.
+#'
+#' @param theme Theme to use. The default theme is \sQuote{ribbon}.
+#'   The \sQuote{material} theme is an alternative.
+#' @param ratio Slide ratio to use. It can be \sQuote{4x3} or
+#'   \sQuote{16x10}.
+#' @param katex Whether to include KaTeX support. It is turned on
+#'   by default. See \url{https://github.com/Khan/KaTeX} for more
+#'   about KaTeX.
+#' @param incremental \code{TRUE} to render slide bullets incrementally. Note
+#'   that if you want to reverse the default incremental behavior for an
+#'   individual bullet you can precede it with \code{>}. For example:
+#'   \emph{\code{> - Bullet Text}}
+#' @param ... Extra arguments, passed to \code{html_document_base}.
+#'
+#' @inheritParams rmarkdown::html_document
+#'
+#' @seealso \url{https://github.com/shower/shower}
+#'
 #' @importFrom rmarkdown pandoc_variable_arg pandoc_path_arg
 #'   pandoc_highlight_args pandoc_options knitr_options_html
 #'   html_document_base rmarkdown_format relative_to
