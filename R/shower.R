@@ -6,7 +6,7 @@
 #' @export
 
 shower <- function(
-  theme = c("ribbon", "material", "mango"),
+  theme = c("ribbon", "material"),
   ratio = c("4x3", "16x10"),
   katex = FALSE,
   incremental = FALSE,
@@ -25,7 +25,10 @@ shower <- function(
   pandoc_args = NULL,
   ...) {
 
-  theme <- match.arg(theme)
+  if (! theme %in% c("ribbon", "material", "mango")) {
+    stop("Unknown theme")
+  }
+
   ratio <- match.arg(ratio)
 
   ## put common pandoc options here
