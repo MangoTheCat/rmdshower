@@ -1,5 +1,5 @@
 ---
-title: "Shower Presentations with R Markdown"
+title: "Mango Presentations with R Markdown"
 author: "Gábor Csárdi"
 email: "gcsardi@mango-solutions.com"
 maketitle: true
