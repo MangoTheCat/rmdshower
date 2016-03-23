@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "shower-core": "^2.0.5",
+    "shower-mango": "git://github.com/mangothecat/shower-mango.git",
     "shower-material": "^1.0.3",
     "shower-ribbon": "^2.0.3"
   },
