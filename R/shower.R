@@ -25,6 +25,10 @@
 #'   html_document_base rmarkdown_format relative_to
 #'   render_supporting_files output_format includes_to_pandoc_args
 #' @export
+#' @examples
+#' \dontrun{
+#' rmarkdown::render("presentation.Rmd")
+#' }
 
 shower <- function(
   theme = c("ribbon", "material"),

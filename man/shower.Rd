@@ -79,6 +79,11 @@ bootstrap, etc.) into. By default this will be the name of the document with
 \description{
 Shower is a vanilla HTML/CSS/JS presentation engine.
 }
+\examples{
+\dontrun{
+rmarkdown::render("presentation.Rmd")
+}
+}
 \seealso{
 \url{https://github.com/shower/shower}
 }
