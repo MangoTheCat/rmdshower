@@ -35,7 +35,7 @@ output:
 
 * See http://rmarkdown.rstudio.com/ for more about R Markdown.
 * There is a long example Rmd document in the
-  [`inst/examples`](./inst/examples) directory.
+  [`inst/examples`](./inst/examples/skeleton.Rmd) directory.
 * The HTML output of this document is at TODO.
 * The shower homepage is at https://github.com/shower/shower
 
