@@ -1,6 +1,7 @@
 ---
 title: "Shower Presentations with R Markdown"
 author: https://github.com/mangothecat/rmdshower
+ratio: 16x10
 output:
   rmdshower::shower:
     self_contained: false

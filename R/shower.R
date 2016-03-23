@@ -7,6 +7,7 @@
 
 shower <- function(
   theme = c("ribbon", "material", "mango"),
+  ratio = c("4x3", "16x10"),
   katex = FALSE,
   incremental = FALSE,
   fig_width = 8,
@@ -25,6 +26,7 @@ shower <- function(
   ...) {
 
   theme <- match.arg(theme)
+  ratio <- match.arg(ratio)
 
   ## put common pandoc options here
   args <- c()
@@ -48,6 +50,9 @@ shower <- function(
 
   # theme
   args <- c(args, "--variable", paste0("theme=", theme))
+
+  # aspect ratio
+  ratio <- c(args, "--variable", paste0("ratio=", ratio))
 
   # KaTeX?
   args <- c(args, if (katex) c("--variable", "katex=yes"))
