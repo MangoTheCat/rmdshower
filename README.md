@@ -36,8 +36,11 @@ output:
 * See http://rmarkdown.rstudio.com/ for more about R Markdown.
 * There is a long example Rmd document in the
   [`inst/examples`](./inst/examples/skeleton.Rmd) directory.
-* The HTML output of this document is at TODO.
+* The HTML output of this document is at
+  http://mangothecat.github.io/rmdshower/skeleton.html
 * The shower homepage is at https://github.com/shower/shower
+* Our own Mango template is at
+  http://mangothecat.github.io/rmdshower/mango.html
 
 ## License
 
