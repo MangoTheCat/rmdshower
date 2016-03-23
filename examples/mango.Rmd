@@ -134,7 +134,7 @@ summary(cars)
 
 # Pictures { .cover .white }
 
-<img src="scifi.jpg" class="cover">
+<img src="scifi.jpg" class="cover height">
 
 <p class="white">
 And text on top of them.
