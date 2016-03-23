@@ -18,7 +18,7 @@ The \sQuote{material} theme is an alternative.}
 \item{ratio}{Slide ratio to use. It can be \sQuote{4x3} or
 \sQuote{16x10}.}
 
-\item{katex}{Whether to include KaTeX support. It is turned on
+\item{katex}{Whether to include KaTeX support. It is turned off
 by default. See \url{https://github.com/Khan/KaTeX} for more
 about KaTeX.}
 

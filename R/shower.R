@@ -7,7 +7,7 @@
 #'   The \sQuote{material} theme is an alternative.
 #' @param ratio Slide ratio to use. It can be \sQuote{4x3} or
 #'   \sQuote{16x10}.
-#' @param katex Whether to include KaTeX support. It is turned on
+#' @param katex Whether to include KaTeX support. It is turned off
 #'   by default. See \url{https://github.com/Khan/KaTeX} for more
 #'   about KaTeX.
 #' @param incremental \code{TRUE} to render slide bullets incrementally. Note
