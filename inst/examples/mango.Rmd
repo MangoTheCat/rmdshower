@@ -5,7 +5,7 @@ email: "gcsardi@mango-solutions.com"
 maketitle: true
 ratio: 4x3
 output:
-  rmdshower::shower:
+  rmdshower::shower_presentation:
     self_contained: false
     katex: true
     theme: mango

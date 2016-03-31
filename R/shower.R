@@ -30,7 +30,7 @@
 #' rmarkdown::render("presentation.Rmd")
 #' }
 
-shower <- function(
+shower_presentation <- function(
   theme = c("ribbon", "material"),
   ratio = c("4x3", "16x10"),
   katex = FALSE,

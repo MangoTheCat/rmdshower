@@ -24,7 +24,7 @@ title: "Shower Presentations with R Markdown"
 author: "Gabor Csardi"
 ratio: 16x10
 output:
-  rmdshower::shower:
+  rmdshower::shower_presentation:
     self_contained: false
     katex: true
     theme: ribbon

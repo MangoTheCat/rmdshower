@@ -1,9 +1,6 @@
-/examples/skeleton.html
-/examples/skeleton_files
-/examples/mango.html
-/examples/mango_files
 .Rproj.user
-.rmdshower.Rproj
 .Rhistory
 inst/examples/skeleton.html
 inst/examples/skeleton_files
+inst/examples/mango.html
+inst/examples/mango_files
