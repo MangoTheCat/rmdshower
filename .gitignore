@@ -5,3 +5,5 @@
 .Rproj.user
 .rmdshower.Rproj
 .Rhistory
+inst/examples/skeleton.html
+inst/examples/skeleton_files
