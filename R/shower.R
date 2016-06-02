@@ -74,7 +74,7 @@ shower_presentation <- function(
     args <- c(args, "--incremental")
 
   # slide level
-  args <- c(args, "--slide-level", "1")
+  args <- c(args, "--slide-level", "2")
 
   # theme
   args <- c(args, "--variable", paste0("theme=", theme))
