@@ -136,7 +136,6 @@ shower_presentation <- function(
 
     ## Change <li class="fragment"> elements, add a "next" class.
     ## Shower needs this for incremental lists
-
     lines <- sub(
       "<li class=\"fragment\"",
       "<li class=\"fragment next\"",
@@ -144,6 +143,7 @@ shower_presentation <- function(
       fixed = TRUE
     )
 
+    ## Everything should be H2 for shower
     lines <- sub(
       "^<h1>(.*)</h1>$",
       "<h2>\\1</h2>",
@@ -151,12 +151,17 @@ shower_presentation <- function(
       perl = TRUE
     )
 
+    ## Title slides are H2, too, but have a special class
     lines <- sub(
       "(class=\"titleslide slide level1\">)<h1>(.*)</h1>",
       "\\1<h2 class=\"shout\">\\2</h2>",
       lines,
       perl = TRUE
     )
+
+    ## No embedded sections, please
+    lines <- sub("^<section><section", "<section", lines)
+    lines <- sub("^</section></section>", "</section>", lines)
 
     ## Write it out
     writeLines(lines, output_file)
