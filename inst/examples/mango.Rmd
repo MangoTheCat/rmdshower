@@ -1,5 +1,5 @@
 ---
-title: "Mango Presentations with R Markdown"
+title: "Mango Presentations in R Markdown"
 author: "Gábor Csárdi"
 email: "gcsardi@mango-solutions.com"
 maketitle: true
@@ -140,7 +140,7 @@ summary(cars)
 And text on top of them.
 </p>
 
-## Title slide { .shout }
+# Title slide
 
 ## Lists item by item
 
@@ -158,7 +158,7 @@ pairs(iris[1:4], pch = 21,
       bg = c("red", "green3", "blue")[unclass(iris$Species)])
 ```
 
-## Full Page Plots { .shout }
+# Full Page Plots
 
 ## { .fullpage }
 
