@@ -148,8 +148,6 @@ And text on top of them.
 
 # Title slide
 
-# You Can Shout If You Want To { .shout.shrink }
-
 ## Lists item by item
 
 > 1. Lets you reveal list items one by one

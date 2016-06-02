@@ -144,6 +144,20 @@ shower_presentation <- function(
       fixed = TRUE
     )
 
+    lines <- sub(
+      "^<h1>(.*)</h1>$",
+      "<h2>\\1</h2>",
+      lines,
+      perl = TRUE
+    )
+
+    lines <- sub(
+      "(class=\"titleslide slide level1\">)<h1>(.*)</h1>",
+      "\\1<h2 class=\"shout\">\\2</h2>",
+      lines,
+      perl = TRUE
+    )
+
     ## Write it out
     writeLines(lines, output_file)
 
