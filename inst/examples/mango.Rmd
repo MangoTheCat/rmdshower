@@ -3,7 +3,6 @@ title: "Mango Presentations in R Markdown"
 author: "Gábor Csárdi"
 email: "gcsardi@mango-solutions.com"
 maketitle: true
-ratio: 4x3
 output:
   rmdshower::shower_presentation:
     self_contained: false

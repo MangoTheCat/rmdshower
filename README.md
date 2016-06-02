@@ -22,13 +22,12 @@ call `rmarkdown::render()` as usual:
 ```markdown
 ---
 title: "Shower Presentations with R Markdown"
-author: "Gabor Csardi"
-ratio: 16x10
+author: "Gábor Csárdi"
 output:
   rmdshower::shower_presentation:
     self_contained: false
     katex: true
-    theme: ribbon
+    ratio: 16x10
 ---
 ```
 

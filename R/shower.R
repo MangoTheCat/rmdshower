@@ -50,6 +50,8 @@ shower_presentation <- function(
   pandoc_args = NULL,
   ...) {
 
+  theme <- theme[1]
+
   if (! theme %in% c("ribbon", "material", "mango")) {
     stop("Unknown theme")
   }
@@ -77,13 +79,13 @@ shower_presentation <- function(
   args <- c(args, "--slide-level", "2")
 
   # theme
-  args <- c(args, "--variable", paste0("theme=", theme))
+  args <- c(args, paste0("--variable=theme:", theme))
 
   # aspect ratio
-  ratio <- c(args, "--variable", paste0("ratio=", ratio))
+  args <- c(args, paste0("--variable=ratio:", ratio))
 
   # KaTeX?
-  args <- c(args, if (katex) c("--variable", "katex=yes"))
+  args <- c(args, if (katex) paste0("--variable=katex:yes"))
 
   # content includes
   args <- c(args, includes_to_pandoc_args(includes))
@@ -117,8 +119,7 @@ shower_presentation <- function(
     }
     args <- c(
       args,
-      "--variable",
-      paste("shower-url=", pandoc_path_arg(shower_path), sep  ="")
+      paste0("--variable=shower-url:", pandoc_path_arg(shower_path))
     )
 
     ## highlight

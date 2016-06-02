@@ -1,12 +1,11 @@
 ---
 title: "Shower Presentations with R Markdown"
 author: https://github.com/mangothecat/rmdshower
-ratio: 16x10
 output:
   rmdshower::shower_presentation:
     self_contained: false
     katex: true
-    theme: ribbon
+    ratio: 16x10
 ---
 
 ## Shower Presentations with R Markdown { .white }
