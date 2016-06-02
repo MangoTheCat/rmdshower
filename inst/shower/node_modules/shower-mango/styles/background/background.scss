@@ -1,0 +1,10 @@
+// ------------------------------------------------------------------
+// Background
+// ------------------------------------------------------------------
+
+.slide:not(.titlepage):not(.fullpage):not(.cover):not(.shout) {
+       background-image: url("../images/PPT_Body.png");
+       background-repeat:no-repeat;
+       background-position: left bottom;
+       background-size: 100% 100%;
+}

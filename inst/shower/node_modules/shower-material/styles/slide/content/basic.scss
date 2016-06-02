@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Basic
+// ------------------------------------------------------------------
+
+h2 {
+	margin-bottom:32px;
+	color:$black;
+	font:48px/1 Roboto Light, sans-serif;
+	}
+p {
+	margin-bottom:1em;
+	&.note {
+		color:$medium;
+		}
+	}
