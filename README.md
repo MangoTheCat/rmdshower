@@ -4,6 +4,7 @@
 > R Markdown Template for the Shower Presentation Engine
 
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Linux Build Status](https://travis-ci.org/MangoTheCat/rmdshower.svg?branch=master)](https://travis-ci.org/MangoTheCat/rmdshower)
 [![](http://www.r-pkg.org/badges/version/rmdshower)](http://www.r-pkg.org/pkg/rmdshower)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rmdshower)](http://www.r-pkg.org/pkg/rmdshower)
 
