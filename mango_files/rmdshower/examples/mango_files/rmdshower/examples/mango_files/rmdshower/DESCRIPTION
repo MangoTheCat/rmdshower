@@ -1,0 +1,49 @@
+Package: rmdshower
+Title: 'R' 'Markdown' Format for 'shower' Presentations
+Version: 2.0.0
+Authors@R: c(
+    person("Vadim", "Makeev", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Oleg", "Jahson", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Slava", "Oliyanchuk", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Roman", "Komarov", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Artem", "Polikarpov", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Tony", "Ganch", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Denis", "Hananein", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Gabor", "Csardi", role = c("aut", "cre"),
+       email = "gcsardi@mango-solutions.com"),
+    person("JJ", "Allaire", role = c("aut"), email = "jj@rstudio.com"),
+    person(family = "RStudio", role = "cph"),
+    person(family = "Mango Solutions", role = "cph")
+  )
+Description: 'R' 'Markdown' format for 'shower' presentations, see
+   <https://github.com/shower/shower>.
+License: MIT + file LICENSE
+URL: https://github.com/mangothecat/rmdshower
+BugReports: https://github.com/mangothecat/rmdshower/issues
+Depends: R (>= 3.0)
+Imports: rmarkdown (>= 0.3.3)
+RoxygenNote: 5.0.1
+Author: Vadim Makeev [aut, cph] (shower, https://github.com/shower/shower),
+  Oleg Jahson [aut, cph] (shower, https://github.com/shower/shower),
+  Slava Oliyanchuk [aut, cph] (shower, https://github.com/shower/shower),
+  Roman Komarov [aut, cph] (shower, https://github.com/shower/shower),
+  Artem Polikarpov [aut, cph] (shower, https://github.com/shower/shower),
+  Tony Ganch [aut, cph] (shower, https://github.com/shower/shower),
+  Denis Hananein [aut, cph] (shower, https://github.com/shower/shower),
+  Gabor Csardi [aut, cre],
+  JJ Allaire [aut],
+  RStudio [cph],
+  Mango Solutions [cph]
+Maintainer: Gabor Csardi <gcsardi@mango-solutions.com>
+Built: R 3.2.4; ; 2016-06-02 13:35:39 UTC; unix
+RemoteType: local
+RemoteUrl: /Users/gaborcsardi/works/mango/rmdshower
+RemoteUsername: MangoTheCat
+RemoteRepo: rmdshower

@@ -1,0 +1,54 @@
+
+/* White */
+
+section.white h1,
+section.white h2 {
+    color: white;
+}
+
+h1.white {
+    color: white;
+}
+
+h2.white {
+    color: white;
+}
+
+p.white {
+    color: white;
+}
+
+p.white a {
+    color: white;
+}
+
+/* Full page figure */
+
+.fullpage img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fullpage.width img {
+    width: 100%;
+    max-height: none;
+}
+
+.fullpage.height img {
+    height: 100%;
+    max-width: none;
+}
+
+.one-col-image {
+    width: 350px;
+}
+
+.double-flow {
+    vertical-align: top;
+    display: inline-block;
+}
