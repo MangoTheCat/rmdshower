@@ -1,6 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^build-styles\.sh$
+^\.travis\.yml$
 ^inst/shower/node_modules/del$
 ^inst/shower/node_modules/fs$
 ^inst/shower/node_modules/gulp.*$
