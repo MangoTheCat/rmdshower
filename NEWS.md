@@ -6,6 +6,9 @@
 * Renamed the format to shower_presentation to be consistent with
   other packages
 
+* You can omit the `theme` and `ratio` parameters in the YAML header,
+  the defaults work now
+
 * Several smaller theme fixes
 
 # 1.0.0
