@@ -52,3 +52,11 @@ p.white a {
     vertical-align: top;
     display: inline-block;
 }
+
+/* Fix for bullet points. When the output is self-contained, they are 
+   recoded in the wrong encoding for some reason, and are incorrect in
+   many browsers. Using the espace sequence always works. */
+
+.slide ul>li::before {
+    content: "\2022";
+}
