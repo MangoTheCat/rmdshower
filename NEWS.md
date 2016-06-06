@@ -11,6 +11,8 @@
 
 * Several smaller theme fixes
 
+* Fixed occasionally wrong list bullets, for self-contained output, #24
+
 # 1.0.0
 
 First public release.
