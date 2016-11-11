@@ -52,7 +52,7 @@ shower_presentation <- function(
 
   theme <- theme[1]
 
-  if (! theme %in% c("ribbon", "material", "mango")) {
+  if (! theme %in% c("ribbon", "material", "mango", "earl2016")) {
     stop("Unknown theme")
   }
 
