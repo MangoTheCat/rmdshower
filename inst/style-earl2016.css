@@ -3,3 +3,9 @@
 div.sourceCode {
       overflow-x: visible !important;
 }
+
+// No page numbers
+
+.slide:after {
+    display: none;
+}
