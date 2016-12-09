@@ -11,11 +11,7 @@
 ^inst/shower/node_modules/shower-ribbon/pictures$
 ^inst/shower/node_modules/shower-material/node_modules$
 ^inst/shower/node_modules/shower-material/pictures$
-^inst/shower/node_modules/shower-mango/node_modules$
-^inst/shower/node_modules/shower-mango/pictures$
 ^inst/shower/node_modules/shower-earl2016/node_modules$
 ^inst/shower/node_modules/shower-earl2016/pictures$
 ^inst/examples/skeleton.html$
 ^inst/examples/skeleton_files$
-^inst/examples/mango.html$
-^inst/examples/mango_files$
