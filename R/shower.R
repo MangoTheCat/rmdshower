@@ -50,11 +50,8 @@ shower_presentation <- function(
   pandoc_args = NULL,
   ...) {
 
-  theme <- theme[1]
-
-  if (! theme %in% c("ribbon", "material", "mango", "earl2016")) {
-    stop("Unknown theme")
-  }
+  if (missing(theme)) theme <- theme[1]
+  theme_url <- find_theme(theme)
 
   ratio <- match.arg(ratio)
 
@@ -77,9 +74,6 @@ shower_presentation <- function(
 
   # slide level
   args <- c(args, "--slide-level", "2")
-
-  # theme
-  args <- c(args, paste0("--variable=theme:", theme))
 
   # aspect ratio
   args <- c(args, paste0("--variable=ratio:", ratio))
@@ -121,6 +115,15 @@ shower_presentation <- function(
       args,
       paste0("--variable=shower-url:", pandoc_path_arg(shower_path))
     )
+
+    ## theme
+    args <- c(args, paste0("--variable=theme:", theme))
+    if (!self_contained || identical(.Platform$OS.type, "windows")) {
+      theme_url <- relative_to(
+        output_dir, render_supporting_files(theme_url, lib_dir)
+      )
+    }
+    args <- c(args, paste0("--variable=shower-theme-url:", theme_url))
 
     ## highlight
     args <- c(args, pandoc_highlight_args(highlight, default = "pygments"))
