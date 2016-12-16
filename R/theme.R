@@ -16,6 +16,8 @@ find_builtin_theme <- function(theme) {
   system.file(package = "rmdshower")
 }
 
+#' @importFrom utils installed.packages
+
 find_theme_package <- function(theme) {
   theme_pkg <- paste0("rmdshower.", theme)
   if (! theme_pkg %in% rownames(installed.packages())) {
