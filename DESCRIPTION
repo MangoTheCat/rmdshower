@@ -1,6 +1,6 @@
 Package: rmdshower
 Title: 'R' 'Markdown' Format for 'shower' Presentations
-Version: 2.0.0
+Version: 2.1.0
 Authors@R: c(
     person("Vadim", "Makeev", role = c("aut", "cph"),
        comment = "shower, https://github.com/shower/shower"),
