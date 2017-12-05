@@ -1,21 +1,27 @@
 ---
 title: "Shower Presentations with R Markdown"
 author: https://github.com/mangothecat/rmdshower
-ratio: 16x10
 output:
   rmdshower::shower_presentation:
     self_contained: false
     katex: true
-    theme: ribbon
+    ratio: 16x10
 ---
 
-# Shower Presentations with R Markdown { .white }
+```{r setup, include=FALSE}
+swjpg <- system.file('examples', 'sw.jpg', package = 'rmdshower')
+scifi <- system.file('examples', 'scifi.jpg', package = 'rmdshower')
+```
+
+## Shower Presentations with R Markdown { .white }
+
+<img src="`r scifi`" class="cover">
 
 <p class="white">
 Get it from GitHub: https://github.com/mangothecat/rmdshower.
 </p>
 
-# R Markdown
+## R Markdown
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax
 for authoring HTML, PDF, and MS Word documents. For more details on using R
@@ -25,7 +31,7 @@ When you click the **Knit** button a document will be generated that
 includes both content as well as the output of any embedded R code chunks
 within the document.
 
-# Shower
+## Shower
 
 These slides use a template from the [shower](https://github.com/shower/shower)
 presentation system. Notable features:
@@ -37,7 +43,7 @@ presentation system. Notable features:
 
 <p class="note"> Shower ['ʃəuə] noun. A person or thing that shows.</p>
 
-# Slide with Plain Text
+## Slide with Plain Text
 
 Let me see your identification. You don't need to see his
 identification. We don't need to see his identification. These are not the
@@ -46,7 +52,7 @@ go about his business. You can go about your business.
 
 Move along. Move along. Move along.
 
-# Two column layout
+## Two column layout
 
 
 <p class="double">
@@ -59,7 +65,27 @@ Vader, who was a pupil of mine until he turned to evil, helped the Empire
 hunt down and destroy the Jedi Knights.
 </p>
 
-# Two column layout, independent columns
+## Two column layout, text and image
+
+<p class="double">
+How did I get into this mess? I really don't know how. We seem to be made
+to suffer. It's our lot in life. I've got to rest before I fall apart. My
+joints are almost frozen. What a desolate place this is. Where are you
+going?
+<img src="`r swjpg`" class="one-col-image">
+</p>
+
+## Two column layout, image and text
+
+<p class="double">
+<img src="`r swjpg`" class="one-col-image">
+How did I get into this mess? I really don't know how. We seem to be made
+to suffer. It's our lot in life. I've got to rest before I fall apart. My
+joints are almost frozen. What a desolate place this is. Where are you
+going?
+</p>
+
+## Two column layout, independent columns
 
 <div class="double">
 <p class="double-flow">
@@ -70,7 +96,7 @@ It's our lot in life. I've got to rest before I fall apart.
 </p>
 </div>
 
-# Lists
+## Lists
 
 1. Simple lists are marked with bullets
 1. Ordered lists begin with a number
@@ -80,7 +106,7 @@ It's our lot in life. I've got to rest before I fall apart.
     * Otherwise audience will be bored
 1. Look, seven rows exactly!
 
-# Formulas
+## Formulas
 
 Formulas are rendered by KaTeX, https://github.com/Khan/KaTeX
 
@@ -88,23 +114,23 @@ It supports both inline: \(y = x / 2\) and displayed formulas:
 
 \[ x_{1,2} = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a} \]
 
-# Slide with quote
+## Slide with quote
 
-> The bad news is that whenever you learn a new skill you're going to
+> The bad news is that when ever you learn a new skill you're going to
 > suck. It's going to be frustrating. The good news is that is typical and
 > happens to everyone and it is only temporary. You can't go from knowing
 > nothing to becoming an expert without going through a period of great
 > frustration and great suckiness.
 
-**Hadley Wickham **
+**Hadley Wickham? **
 
-# Slide with R Code and Output
+## Slide with R Code and Output
 
 ```{r}
 summary(cars)
 ```
 
-# Tables
+## Tables
 
 |                   |  mpg  |  cyl  |  disp  |  hp  |
 |:-----------------:|:-----:|:-----:|:------:|:----:|
@@ -116,21 +142,17 @@ summary(cars)
 |       Valiant     | 18.1  |   6   |  225.0 | 105  |
 |      Duster 360   | 14.3  |   8   |  360.0 | 245  |
 
-# Pictures { .white }
+## Pictures { .white }
 
-<img src="scifi.jpg" class="cover">
+<img src="`r scifi`" class="cover">
 
 <p class="white">
 And text on top of them.
 </p>
 
-# Title slide { .shout }
+# Title slide
 
----
-
-## You Can Shout If You Want To { .shout .shrink }
-
-# Lists item by item
+## Lists item by item
 
 > 1. Lets you reveal list items one by one
 > 2. To keep some key points
@@ -138,30 +160,30 @@ And text on top of them.
 > 4. But it will work only once
 > 5. Nobody wants to see the same joke twice
 
-# Slide with Plot
+## Slide with Plot
 
-```{r, echo=FALSE, dev='svg'}
+```{r, echo=FALSE, dev='jpeg'}
 par(mar = c(5, 4, 1, 2) + 0.1)
 pairs(iris[1:4], pch = 21,
       bg = c("red", "green3", "blue")[unclass(iris$Species)])
 ```
 
-# Full Page Plots { .shout }
+# Full Page Plots
 
-# { .fullpage }
+## { .fullpage }
 
 <div class="fullpage width">
-```{r, echo=FALSE, dev='svg'}
+```{r, echo=FALSE, dev='jpeg'}
 par(mar = c(5, 4, 1, 2) + 0.1)
 pairs(iris[1:4], pch = 21,
       bg = c("red", "green3", "blue")[unclass(iris$Species)])
 ```
 </div>
 
-# More information
+## More information
 
-## About R markdown: http://rmarkdown.rstudio.com
+### About R markdown: http://rmarkdown.rstudio.com
 
-## About shower: https://github.com/shower/shower
+### About shower: https://github.com/shower/shower
 
-## Example shower presentation: http://shwr.me/
+### Example shower presentation: http://shwr.me/
