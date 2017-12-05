@@ -86,4 +86,3 @@ rmarkdown::render("presentation.Rmd")
 \seealso{
 \url{https://github.com/shower/shower}
 }
-

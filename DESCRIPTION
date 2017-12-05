@@ -1,6 +1,6 @@
 Package: rmdshower
 Title: 'R' 'Markdown' Format for 'shower' Presentations
-Version: 2.1.0
+Version: 2.1.1
 Authors@R: c(
     person("Vadim", "Makeev", role = c("aut", "cph"),
        comment = "shower, https://github.com/shower/shower"),
@@ -16,8 +16,10 @@ Authors@R: c(
        comment = "shower, https://github.com/shower/shower"),
     person("Denis", "Hananein", role = c("aut", "cph"),
        comment = "shower, https://github.com/shower/shower"),
-    person("Gábor", "Csárdi", role = c("aut", "cre"),
+    person("Gábor", "Csárdi", role = c("aut"),
        email = "gcsardi@mango-solutions.com"),
+    person("Doug", "Ashton", role = c("aut", "cre"),
+       email = "dashton@mango-solutions.com"),
     person("JJ", "Allaire", role = c("aut"), email = "jj@rstudio.com"),
     person(family = "RStudio", role = "cph"),
     person(family = "Mango Solutions", role = "cph")
@@ -31,5 +33,7 @@ Depends:
     R (>= 3.0)
 Imports:
     rmarkdown (>= 0.3.3)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Encoding: UTF-8
+Suggests: knitr
+VignetteBuilder: knitr
