@@ -7,6 +7,8 @@
 
 * RStudio skeleton template works
 
+* Change of maintainer
+
 # 2.0.0
 
 * Use level two headings for new slides, i.e. `##` instead of `#`
