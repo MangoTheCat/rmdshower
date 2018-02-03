@@ -1,8 +1,7 @@
 #! /bin/bash
 
 (
-    cd inst/shower
-    npm install
+    cd inst
 
     for style in ribbon material earl2016; do
 	(
@@ -10,4 +9,6 @@
 	    npm install
 	)
     done
+
+    npm install
 )
