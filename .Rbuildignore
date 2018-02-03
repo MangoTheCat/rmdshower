@@ -15,3 +15,4 @@
 ^inst/shower/node_modules/shower-earl2016/pictures$
 ^inst/examples/skeleton.html$
 ^inst/examples/skeleton_files$
+^cran-comments\.md$
