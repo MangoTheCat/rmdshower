@@ -1,3 +1,11 @@
+# 2.1.1
+
+* Allow external theme packages. See 
+  https://github.com/MangoTheCat/rmdshower.mango for an example
+  
+* Fixes for self-contained presentations
+
+* RStudio skeleton template works
 
 # 2.0.0
 
