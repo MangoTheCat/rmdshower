@@ -157,7 +157,7 @@ shower_presentation <- function(
 
     ## Title slides are H2, too, but have a special class
     lines <- sub(
-      "(class=\"titleslide slide level1\">)<h1>(.*)</h1>",
+      "(class=\"title[-]?slide slide level1\">)<h1>(.*)</h1>",
       "\\1<h2 class=\"shout\">\\2</h2>",
       lines,
       perl = TRUE
