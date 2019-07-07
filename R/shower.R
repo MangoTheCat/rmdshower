@@ -7,6 +7,7 @@
 #'   The \sQuote{ribbon} theme is an alternative.
 #' @param ratio Slide ratio to use. It can be \sQuote{4x3} or
 #'   \sQuote{16x10}.
+#' @param progress \code{TRUE} to show a progress bar on each slide.
 #' @param katex Whether to include KaTeX support. It is turned off
 #'   by default. See \url{https://github.com/Khan/KaTeX} for more
 #'   about KaTeX.
@@ -33,6 +34,7 @@
 shower_presentation <- function(
   theme = c("ribbon", "material"),
   ratio = c("4x3", "16x10"),
+  progress = TRUE,
   katex = FALSE,
   incremental = FALSE,
   fig_width = 8,
@@ -77,6 +79,9 @@ shower_presentation <- function(
 
   # aspect ratio
   args <- c(args, paste0("--variable=ratio:", ratio))
+
+  # progress bar?
+  args <- c(args, if (progress) paste0("--variable=progress:yes"))
 
   # KaTeX?
   args <- c(args, if (katex) paste0("--variable=katex:yes"))

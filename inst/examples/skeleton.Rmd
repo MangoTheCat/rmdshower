@@ -593,8 +593,6 @@ Linked
 <h2 class="shout">The End</h2>
 </section>
 
-<div class="progress"></div>
-
 <footer class="badge">
 <a href="https://github.com/shower/shower">
 <svg width="81" height="79" viewBox="0 0 81 79" aria-hidden="true">

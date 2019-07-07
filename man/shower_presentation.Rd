@@ -5,18 +5,21 @@
 \title{R Markdown format for Shower presentations}
 \usage{
 shower_presentation(theme = c("ribbon", "material"), ratio = c("4x3",
-  "16x10"), katex = FALSE, incremental = FALSE, fig_width = 8,
-  fig_height = 4.9, fig_retina = if (!fig_caption) 2, fig_caption = FALSE,
-  smart = TRUE, self_contained = TRUE, highlight = "default",
-  template = "default", css = NULL, includes = NULL, keep_md = FALSE,
-  lib_dir = NULL, pandoc_args = NULL, ...)
+  "16x10"), progress = TRUE, katex = FALSE, incremental = FALSE,
+  fig_width = 8, fig_height = 4.9, fig_retina = if (!fig_caption) 2,
+  fig_caption = FALSE, smart = TRUE, self_contained = TRUE,
+  highlight = "default", template = "default", css = NULL,
+  includes = NULL, keep_md = FALSE, lib_dir = NULL,
+  pandoc_args = NULL, ...)
 }
 \arguments{
-\item{theme}{Theme to use. The default theme is \sQuote{ribbon}.
-The \sQuote{material} theme is an alternative.}
+\item{theme}{Theme to use. The default theme is \sQuote{material}.
+The \sQuote{ribbon} theme is an alternative.}
 
 \item{ratio}{Slide ratio to use. It can be \sQuote{4x3} or
 \sQuote{16x10}.}
+
+\item{progress}{\code{TRUE} to show a progress bar on each slide.}
 
 \item{katex}{Whether to include KaTeX support. It is turned off
 by default. See \url{https://github.com/Khan/KaTeX} for more
@@ -29,7 +32,7 @@ individual bullet you can precede it with \code{>}. For example:
 
 \item{fig_width}{Default width (in inches) for figures}
 
-\item{fig_height}{Default width (in inches) for figures}
+\item{fig_height}{Default height (in inches) for figures}
 
 \item{fig_retina}{Scaling to perform for retina displays (defaults to 2, which
 currently works for all widely used retina displays). Set to \code{NULL} to
@@ -40,14 +43,14 @@ outputting HTML directly into the markdown document).}
 \item{fig_caption}{\code{TRUE} to render figures with captions}
 
 \item{smart}{Produce typographically correct output, converting straight
-quotes to curly quotes, --- to em-dashes, -- to en-dashes, and ... to
-ellipses.}
+quotes to curly quotes, \code{---} to em-dashes, \code{--} to en-dashes, and
+\code{...} to ellipses.}
 
 \item{self_contained}{Produce a standalone HTML file with no external
 dependencies, using data: URIs to incorporate the contents of linked
 scripts, stylesheets, images, and videos. Note that even for self contained
 documents MathJax is still loaded externally (this is necessary because of
-it's size).}
+its size).}
 
 \item{highlight}{Syntax highlighting style. Supported styles include
 "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn",
