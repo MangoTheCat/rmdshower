@@ -18,7 +18,7 @@ The \sQuote{ribbon} theme is an alternative.}
 
 \item{ratio}{Slide ratio to use. It can any quotient, such as `16/10` (default) or `4/3`.}
 
-\item{color_key}{Accent color}
+\item{color_key}{Accent color for \sQuote{material} theme as a hex code. Defaults to `"#4caf50"`.}
 
 \item{progress}{\code{TRUE} to show a progress bar on each slide.}
 

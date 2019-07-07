@@ -6,7 +6,7 @@
 #' @param theme Theme to use. The default theme is \sQuote{material}.
 #'   The \sQuote{ribbon} theme is an alternative.
 #' @param ratio Slide ratio to use. It can any quotient, such as `16/10` (default) or `4/3`.
-#' @param color_key Accent color
+#' @param color_key Accent color for \sQuote{material} theme as a hex code. Defaults to `"#4caf50"`.
 #' @param progress \code{TRUE} to show a progress bar on each slide.
 #' @param katex Whether to include KaTeX support. It is turned off
 #'   by default. See \url{https://github.com/Khan/KaTeX} for more
@@ -78,6 +78,9 @@ shower_presentation <- function(
 
   # aspect ratio
   args <- c(args, paste0("--variable=ratio:", ratio))
+
+  # color
+  args <- c(args, paste0("--variable=color-key:", color_key))
 
   # progress bar?
   args <- c(args, if (progress) paste0("--variable=progress:yes"))
