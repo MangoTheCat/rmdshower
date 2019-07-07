@@ -7,106 +7,141 @@ output:
     katex: true
 ---
 
+## Shower Presentations with R Markdown
+
+</section>
+
+<section class="slide">
+<h2 class="shout">Pandoc Features<br> (No RMarkdown)</h2>
+</section>
+
+
 ## Slide Header
 
-<p>Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch letterpress.</p>
-<p>Whatever authentic disrupt, you probably haven’t heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid four loko quinoa.</p>
+Echo Park 8-bit sustainable umami deep v Kickstarter. 
+DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. 
+Farm-to-table bespoke fingerstache, kale chips umami brunch letterpress.
+
+Whatever authentic disrupt, you probably haven’t heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid four loko quinoa.
+
 <p class="note">Echo Park 8-bit sustainable umami deep v Kickstarter.</p>
 
 
-## First Header
+</section>
 
-<p>Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic.</p>
+<section class="slide">
+<h2>First Header</h2>
+
+Echo Park 8-bit sustainable umami deep v Kickstarter. 
+DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic.
 
 
-## Second Header
+<h2>Second Header</h2>
 
-<p>Whatever authenticdisrupt, you probably haven’t heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid four loko quinoa.</p>
+Whatever authenticdisrupt, you probably haven’t heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid four loko quinoa.
+</section>
 
 
 ## [Linked Header](#)
 
-<p>Retro meh brunch aesthetic Cosby sweater Shoreditch. Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. Messenger bag retro cred Portland next level. Yr stumptown Schlitz Carles deep v small batch. Echo Park 8-bit sustainable umami deep v Kickstarter. Hella sustainable messenger bag, leggings skateboard literally bicycle rights H₂0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical.</p>
+<Retro meh brunch aesthetic Cosby sweater Shoreditch. 
+Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. 
+Messenger bag retro cred Portland next level.
+Yr stumptown Schlitz Carles deep v small batch.
+Echo Park 8-bit sustainable umami deep v Kickstarter. 
+Hella sustainable messenger bag, leggings skateboard literally bicycle rights H₂0 mumblecore banh mi DIY VHS. 
+Semiotics four loko street art asymmetrical.
 
 
 ## Multiline <br> Header
 
-<p>Retro meh brunch aesthetic Cosby sweater Shoreditch. Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. Messenger bag retro cred Portland next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag, leggings skateboard literally bicycle rights H₂0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical.</p>
+Retro meh brunch aesthetic Cosby sweater Shoreditch. 
+Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. 
+Messenger bag retro cred Portland next level. 
+Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag, leggings skateboard literally bicycle rights H₂0 mumblecore banh mi DIY VHS. 
+Semiotics four loko street art asymmetrical.
 
 
 ## Inline Elements
 
-<p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag, <mark>leggings</mark> skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical <code>&lt;paleo&gt;</code> you probably haven’t heard of.</p>
+Retro meh brunch [aesthetic]() Cosby sweater Shoreditch. 
+Banksy Tumblr **sriracha**, flexitarian pug chia master cleanse vinyl *wayfarers* fanny pack bespoke Helvetica **roof** party. 
+Messenger bag retro cred *Portland* next level. 
+Yr stumptown Schlitz Carles deep v small batch. 
+Hella sustainable messenger bag, <mark>leggings</mark> skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. 
+Semiotics four loko street art asymmetrical. 
+Asymmetrical <code>&lt;paleo&gt;</code> you probably haven’t heard of.
+
 <footer class="footer">
-<p>Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester. Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale chips literally.</p>
+Flannel bicycle rights locavore selfies skateboard. 
+Authentic fanny pack paleo four loko bespoke. 
+Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester. Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. 
+Portland gentrify deep v kale chips literally.
 </footer>
 
 
 ## Quotes
 
-<blockquote>
-<p>Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester.</p>
-</blockquote>
+> Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. 
+> Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester.
+
+
 <figure>
-<blockquote>
-<p>Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale chips literally.</p>
-</blockquote>
+
+> blockquote
+> Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. 
+> Portland gentrify deep v kale chips literally.
+
 <figcaption>Yours Truly</figcaption>
 </figure>
 
 
 ## Ordered List
 
-<ol>
-<li>Literally viral vegan, ugh drinking vinegar photo booth</li>
-<li>Wes Anderson chillwave Marfa pour-over Etsy banh mi</li>
-<li>Ethnic polaroid lo-fi iPhone ennui</li>
-<li>Yr wayfarers before they sold out Kickstarter asymmetrical</li>
-<li>Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal</li>
-<li>Skateboard Etsy twee artisan Echo Park</li>
-<li>Tonx kitsch fingerstache readymade, retro single-origin coffee</li>
-</ol>
+1. Literally viral vegan, ugh drinking vinegar photo booth
+2. Wes Anderson chillwave Marfa pour-over Etsy banh mi
+3. Ethnic polaroid lo-fi iPhone ennui
+4. Yr wayfarers before they sold out Kickstarter asymmetrical
+5. Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal
+6. Skateboard Etsy twee artisan Echo Park
+7. Tonx kitsch fingerstache readymade, retro single-origin coffee
 
 
 ## Unordered List
 
-<ul>
-<li>Literally viral vegan, ugh drinking vinegar photo booth</li>
-<li>Wes Anderson chillwave Marfa pour-over Etsy banh mi</li>
-<li>Ethnic polaroid lo-fi iPhone ennui</li>
-<li>Yr wayfarers before they sold out Kickstarter asymmetrical</li>
-<li>Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal</li>
-<li>Skateboard Etsy twee artisan Echo Park</li>
-<li>Tonx kitsch fingerstache readymade, retro single-origin coffee</li>
-</ul>
+- Literally viral vegan, ugh drinking vinegar photo booth
+- Wes Anderson chillwave Marfa pour-over Etsy banh mi
+- Ethnic polaroid lo-fi iPhone ennui
+- Yr wayfarers before they sold out Kickstarter asymmetrical
+- Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal
+- Skateboard Etsy twee artisan Echo Park
+- Tonx kitsch fingerstache readymade, retro single-origin coffee
+
 </section>
 
 
 ## Multiline List Items
 
-<ul>
-<li>Retro meh brunch aesthetic Cosby sweater Shoreditch. Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack.</li>
-<li>Messenger bag retro cred Portland next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag.</li>
-<li>Leggings skateboard literally bicycle rights H₂0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical paleo you probably haven’t heard of.</li>
-</ul>
-</section>
+- Retro meh brunch aesthetic Cosby sweater Shoreditch.
+  Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack.
+- Messenger bag retro cred Portland next level. 
+  Yr stumptown Schlitz Carles deep v small batch. 
+  
+  Hella sustainable messenger bag.
+- Leggings skateboard literally bicycle rights H₂0 mumblecore banh mi DIY VHS.
+  Semiotics four loko street art asymmetrical. 
+  Asymmetrical paleo you probably haven’t heard of.
 
 
 ## Nested Lists
 
-<ol>
-<li>Literally viral vegan, ugh drinking vinegar photo booth</li>
-<li>Wes Anderson chillwave Marfa pour-over Etsy banh mi</li>
-<li>Ethnic polaroid lo-fi iPhone ennui
-<ul>
-<li>Yr wayfarers before they sold out Kickstarter asymmetrical</li>
-<li>Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal</li>
-<li>Skateboard Etsy twee artisan Echo Park</li>
-</ul>
-</li>
-<li>Tonx kitsch fingerstache readymade, retro single-origin coffee</li>
-</ol>
-</section>
+1. Literally viral vegan, ugh drinking vinegar photo booth
+2. Wes Anderson chillwave Marfa pour-over Etsy banh mi
+3. Ethnic polaroid lo-fi iPhone ennui
+    1. Yr wayfarers before they sold out Kickstarter asymmetrical
+    2. Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal
+    3. Skateboard Etsy twee artisan Echo Park
+4. Tonx kitsch fingerstache readymade, retro single-origin coffee
 
 
 ## Latin and Cyrillic List Bullets
@@ -121,7 +156,6 @@ output:
 <li>Cray pug paleo retro, Echo Park narwhal Wes Anderson</li>
 <li>Disrupt Williamsburg fixie, shabby chic bicycle rights hashtag kogi</li>
 </ul>
-</section>
 
 
 ## Custom List Bullets
@@ -136,14 +170,17 @@ output:
 <li value="10">Skateboard pork belly aesthetic hoodie selfies brunch</li>
 <li value="1">Food truck gluten-free disrupt Portland</li>
 </ol>
-</section>
 
 
 ## Two Text Columns
 
 <div class="columns two">
-<p>Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch.</p>
-<p>American Apparel letterpress. Whatever authentic disrupt, you probably haven’t heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid American Apparel four loko quinoa.</p>
+Echo Park 8-bit sustainable umami deep v Kickstarter. 
+DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. 
+Farm-to-table bespoke fingerstache, kale chips umami brunch.
+
+American Apparel letterpress. 
+Whatever authentic disrupt, you probably haven’t heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid American Apparel four loko quinoa.
 </div>
 
 
@@ -225,11 +262,15 @@ output:
 <div class="columns two">
 <div>
 <h2>Column Header 1</h2>
-<p>Retro meh brunch aesthetic Cosby sweater Shoreditch. Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. Messenger bag retro cred Portland next level.</p>
+Retro meh brunch aesthetic Cosby sweater Shoreditch. 
+Banksy Tumblr sriracha, flexitarian pug chia master cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. 
+Messenger bag retro cred Portland next level.
 </div>
 <div>
 <h2>Column Header 2</h2>
-<p>Yr stumptown Schlitz Carles deep v small batch. Echo Park 8-bit sustainable umami deep v Kickstarter. Hella sustainable messenger bag, leggings skateboard literally bicycle rights H₂0 mumblecore banh.</p>
+Yr stumptown Schlitz Carles deep v small batch. 
+Echo Park 8-bit sustainable umami deep v Kickstarter. 
+Hella sustainable messenger bag, leggings skateboard literally bicycle rights H₂0 mumblecore banh.
 </div>
 </div>
 </section>
@@ -426,7 +467,6 @@ output:
 <td>Farm-to-table</td>
 </tr>
 </table>
-</section>
 
 
 ## Plain Code Block
@@ -439,6 +479,7 @@ output:
 &lt;script src="script.js"&gt;&lt;/script&gt;
 <mark>&lt;/head&gt;</mark></code></pre>
 </section>
+
 <section class="slide">
 <h2>Numbered Code Lines</h2>
 <pre>
@@ -507,7 +548,6 @@ output:
 
 <section class="slide">
 <h2 class="shout">Shout</h2>
-## Shout {.shout}
 </section>
 
 <section class="slide">
@@ -535,6 +575,8 @@ Linked
 <section class="slide">
 <h2>Cover</h2>
 <figure>
+
+
 <img class="cover" src="exact.svg" alt="Picture placeholder.">
 <figcaption class="copyright top">Copyright © 3000 <a href="">Yours Truly</a>, Famous Inc.</figcaption>
 <figcaption class="copyright white">Copyright © 3000 <a href="">Yours Truly</a>, Famous Inc.</figcaption>
@@ -601,99 +643,10 @@ Fork me<br>on GitHub
 </a>
 </footer>
 
+<section class="slide">
+<h2 class="shout">RMarkdown Features<br> (Courtesy of this Package)</h2>
+</section>
 
-## Shower Presentations with R Markdown { .white }
-
-<img src="scifi.jpg" class="cover">
-
-<p class="white">
-Get it from GitHub: https://github.com/mangothecat/rmdshower.
-</p>
-
-## R Markdown
-
-This is an R Markdown presentation. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on using R
-Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code chunks
-within the document.
-
-## Shower
-
-These slides use a template from the [shower](https://github.com/shower/shower)
-presentation system. Notable features:
-
-1. Works in all modern browsers
-1. Presentation fully keyboard accessible
-1. Multiple themes available
-1. Printable to PDF
-
-<p class="note"> Shower ['ʃəuə] noun. A person or thing that shows.</p>
-
-## Slide with Plain Text
-
-Let me see your identification. You don't need to see his
-identification. We don't need to see his identification. These are not the
-droids your looking for. These are not the droids we're looking for. He can
-go about his business. You can go about your business.
-
-Move along. Move along. Move along.
-
-## Two column layout
-
-
-<p class="double">
-What is it? Your fathers lightsaber. This is the weapon of a Jedi
-Knight. Not as clumsy or as random as a blaster. An elegant weapon for a
-more civilized time. For over a thousand generations the Jedi Knights were
-the guardians of peace and justice in the Old Republic. Before the dark
-times, before the Empire. How did my father die? A young Jedi named Darth
-Vader, who was a pupil of mine until he turned to evil, helped the Empire
-hunt down and destroy the Jedi Knights.
-</p>
-
-## Two column layout, text and image
-
-<p class="double">
-How did I get into this mess? I really don't know how. We seem to be made
-to suffer. It's our lot in life. I've got to rest before I fall apart. My
-joints are almost frozen. What a desolate place this is. Where are you
-going?
-<img src="sw.jpg" class="one-col-image">
-</p>
-
-## Two column layout, image and text
-
-<p class="double">
-<img src="sw.jpg" class="one-col-image">
-How did I get into this mess? I really don't know how. We seem to be made
-to suffer. It's our lot in life. I've got to rest before I fall apart. My
-joints are almost frozen. What a desolate place this is. Where are you
-going?
-</p>
-
-## Two column layout, independent columns
-
-<div class="double">
-<p class="double-flow">
-How did I get into this mess? I really don't know how. We seem to be made
-to suffer.
-</p><p class="double-flow">
-It's our lot in life. I've got to rest before I fall apart.
-</p>
-</div>
-
-## Lists
-
-1. Simple lists are marked with bullets
-1. Ordered lists begin with a number
-1. You can even nest lists one inside another
-    * Or mix their types
-    * But do not go too far
-    * Otherwise audience will be bored
-1. Look, seven rows exactly!
 
 ## Formulas
 
@@ -703,15 +656,6 @@ It supports both inline: \(y = x / 2\) and displayed formulas:
 
 \[ x_{1,2} = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a} \]
 
-## Slide with quote
-
-> The bad news is that when ever you learn a new skill you're going to
-> suck. It's going to be frustrating. The good news is that is typical and
-> happens to everyone and it is only temporary. You can't go from knowing
-> nothing to becoming an expert without going through a period of great
-> frustration and great suckiness.
-
-**Hadley Wickham﻿ **
 
 ## Slide with R Code and Output
 
@@ -719,7 +663,7 @@ It supports both inline: \(y = x / 2\) and displayed formulas:
 summary(cars)
 ```
 
-## Tables
+## Markdown Tables
 
 |                   |  mpg  |  cyl  |  disp  |  hp  |
 |:-----------------:|:-----:|:-----:|:------:|:----:|
@@ -731,22 +675,6 @@ summary(cars)
 |       Valiant     | 18.1  |   6   |  225.0 | 105  |
 |      Duster 360   | 14.3  |   8   |  360.0 | 245  |
 
-## Pictures { .white }
-
-<img src="scifi.jpg" class="cover">
-
-<p class="white">
-And text on top of them.
-</p>
-
-
-## Lists item by item
-
-> 1. Lets you reveal list items one by one
-> 2. To keep some key points
-> 3. In secret from audience
-> 4. But it will work only once
-> 5. Nobody wants to see the same joke twice
 
 ## Slide with Plot
 
