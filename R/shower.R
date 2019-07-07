@@ -3,8 +3,8 @@
 #'
 #' Shower is a vanilla HTML/CSS/JS presentation engine.
 #'
-#' @param theme Theme to use. The default theme is \sQuote{ribbon}.
-#'   The \sQuote{material} theme is an alternative.
+#' @param theme Theme to use. The default theme is \sQuote{material}.
+#'   The \sQuote{ribbon} theme is an alternative.
 #' @param ratio Slide ratio to use. It can be \sQuote{4x3} or
 #'   \sQuote{16x10}.
 #' @param katex Whether to include KaTeX support. It is turned off
@@ -50,7 +50,7 @@ shower_presentation <- function(
   pandoc_args = NULL,
   ...) {
 
-  if (missing(theme)) theme <- theme[1]
+  if (missing(theme)) theme <- theme[2]
   theme_url <- find_theme(theme)
 
   ratio <- match.arg(ratio)

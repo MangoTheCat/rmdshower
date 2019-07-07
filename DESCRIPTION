@@ -1,6 +1,6 @@
 Package: rmdshower
 Title: 'R' 'Markdown' Format for 'shower' Presentations
-Version: 2.1.1
+Version: 3.0.0
 Authors@R: c(
     person("Vadim", "Makeev", role = c("aut", "cph"),
        comment = "shower, https://github.com/shower/shower"),
@@ -21,6 +21,7 @@ Authors@R: c(
     person("Doug", "Ashton", role = c("aut", "cre"),
        email = "dashton@mango-solutions.com"),
     person("JJ", "Allaire", role = c("aut"), email = "jj@rstudio.com"),
+    person("Max", "Held", role = c("aut"), email = "info@maxheld.de"),
     person(family = "RStudio", role = "cph"),
     person(family = "Mango Solutions", role = "cph")
   )

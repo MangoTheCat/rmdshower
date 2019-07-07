@@ -1,3 +1,8 @@
+# 3.0.0
+
+* Upgrade to Shower 2.7.0
+* Default to `material` theme (same as in upstream Shower)
+
 # 2.1.1
 
 * Allow external theme packages. See 
