@@ -3,9 +3,13 @@
 <head>
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="$shower-url$/node_modules/@shower/$theme$/styles/styles.css">
+  <style>
+    .shower {
+      --slide-ratio: $ratio$
+    }
+  </style>
   <link rel="stylesheet" href="$shower-url$/style-common.css">
   <link rel="stylesheet" href="$shower-url$/style-$theme$.css">
   $if(katex)$

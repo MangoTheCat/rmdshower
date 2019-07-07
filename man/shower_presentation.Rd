@@ -4,20 +4,21 @@
 \alias{shower_presentation}
 \title{R Markdown format for Shower presentations}
 \usage{
-shower_presentation(theme = c("ribbon", "material"), ratio = c("4x3",
-  "16x10"), progress = TRUE, katex = FALSE, incremental = FALSE,
-  fig_width = 8, fig_height = 4.9, fig_retina = if (!fig_caption) 2,
-  fig_caption = FALSE, smart = TRUE, self_contained = TRUE,
-  highlight = "default", template = "default", css = NULL,
-  includes = NULL, keep_md = FALSE, lib_dir = NULL,
-  pandoc_args = NULL, ...)
+shower_presentation(theme = c("ribbon", "material"), ratio = 16/10,
+  color_key = "#4caf50", progress = TRUE, katex = FALSE,
+  incremental = FALSE, fig_width = 8, fig_height = 4.9,
+  fig_retina = if (!fig_caption) 2, fig_caption = FALSE,
+  smart = TRUE, self_contained = TRUE, highlight = "default",
+  template = "default", css = NULL, includes = NULL,
+  keep_md = FALSE, lib_dir = NULL, pandoc_args = NULL, ...)
 }
 \arguments{
 \item{theme}{Theme to use. The default theme is \sQuote{material}.
 The \sQuote{ribbon} theme is an alternative.}
 
-\item{ratio}{Slide ratio to use. It can be \sQuote{4x3} or
-\sQuote{16x10}.}
+\item{ratio}{Slide ratio to use. It can any quotient, such as `16/10` (default) or `4/3`.}
+
+\item{color_key}{Accent color}
 
 \item{progress}{\code{TRUE} to show a progress bar on each slide.}
 

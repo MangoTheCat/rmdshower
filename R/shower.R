@@ -5,8 +5,8 @@
 #'
 #' @param theme Theme to use. The default theme is \sQuote{material}.
 #'   The \sQuote{ribbon} theme is an alternative.
-#' @param ratio Slide ratio to use. It can be \sQuote{4x3} or
-#'   \sQuote{16x10}.
+#' @param ratio Slide ratio to use. It can any quotient, such as `16/10` (default) or `4/3`.
+#' @param color_key Accent color
 #' @param progress \code{TRUE} to show a progress bar on each slide.
 #' @param katex Whether to include KaTeX support. It is turned off
 #'   by default. See \url{https://github.com/Khan/KaTeX} for more
@@ -33,7 +33,8 @@
 
 shower_presentation <- function(
   theme = c("ribbon", "material"),
-  ratio = c("4x3", "16x10"),
+  ratio = 16/10,
+  color_key = "#4caf50",
   progress = TRUE,
   katex = FALSE,
   incremental = FALSE,
@@ -54,8 +55,6 @@ shower_presentation <- function(
 
   if (missing(theme)) theme <- theme[2]
   theme_url <- find_theme(theme)
-
-  ratio <- match.arg(ratio)
 
   ## put common pandoc options here
   args <- c()
