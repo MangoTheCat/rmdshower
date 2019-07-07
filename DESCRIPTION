@@ -34,7 +34,7 @@ Depends:
     R (>= 3.0)
 Imports:
     rmarkdown (>= 0.3.3)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 Encoding: UTF-8
 Suggests: knitr
 VignetteBuilder: knitr
