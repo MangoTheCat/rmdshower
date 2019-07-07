@@ -4,7 +4,7 @@
 \alias{shower_presentation}
 \title{R Markdown format for Shower presentations}
 \usage{
-shower_presentation(theme = c("ribbon", "material"), ratio = 16/10,
+shower_presentation(theme = c("ribbon", "material"), ratio = 16/9,
   color_key = "#4caf50", progress = TRUE, katex = FALSE,
   incremental = FALSE, fig_width = 8, fig_height = 4.9,
   fig_retina = if (!fig_caption) 2, fig_caption = FALSE,

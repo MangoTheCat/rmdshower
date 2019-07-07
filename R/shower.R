@@ -33,7 +33,7 @@
 
 shower_presentation <- function(
   theme = c("ribbon", "material"),
-  ratio = 16/10,
+  ratio = 16/9,
   color_key = "#4caf50",
   progress = TRUE,
   katex = FALSE,
